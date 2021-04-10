@@ -1,0 +1,15 @@
+echo How are you doing today?
+read beta
+if test "$beta" == "good"
+then 
+	echo happy to hear that bro 
+	echo Have you talked to Chase?
+	read alpha
+	if test "$alpha" == "no" 
+	then
+		echo Has he called you at all?
+	fi
+else
+	echo oh sorry to hear that
+fi 
+./edsh
